@@ -1,0 +1,108 @@
+/*
+* {
+  border: 1px lightseagreen solid;
+  max-width: 100%;
+}*/
+
+
+/*HTML*/
+html {
+  min-height: 100%;
+}
+
+/*Body*/
+body {
+  min-height: 100%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-size: 1rem;
+  background: radial-gradient(circle at -10% 100%, #b70c00, #c10020, #c6003a, #c50055, #bd0073, #aa0093, #8c00b2, #5900cd); /* made at https://learnui.design/tools/gradient-generator.html */
+  font-family:cursive;
+  position: absolute center;
+}
+
+/*Profile Picture*/
+.avatar-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 128px;
+}
+
+/*Thumbnails*/
+.thumbnail {
+  width: 48px;
+  height: 48px;
+  border-radius: 48px;
+  object-fit: cover;
+  justify-content: center;
+}
+
+/*Stuff for the links*/
+a {
+  text-decoration:none;
+}
+ /* unvisited link */
+ a:link {
+  color:white;
+}
+
+/* visited link */
+a:visited {
+  color:orange;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: hotpink;
+}
+
+
+/*Centering the main-container*/
+.main-container {
+  max-width: 640px;
+  margin:auto;
+}
+
+/* Adding margin bottoms to each section and centering*/
+.image-row {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.name-row {
+  margin-bottom: 30px;
+  text-align: center;
+  font-family:cursive;
+  font-size: 40px;
+  color: white;
+  font-weight: 900;
+}
+
+.social-icons-row {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size:x-large;
+  display:flex;
+  justify-content: space-around;
+}
+
+.item {
+  background-color:rgb(21, 17, 61);
+  border-radius: 200px;
+  padding: 5px;
+  padding-right: 53px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.link-text {
+  text-align: center;
+  flex-grow: 1;
+}
